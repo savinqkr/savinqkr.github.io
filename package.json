@@ -12,9 +12,12 @@
     "deploy": "next build && next export"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "14.2.5",
+    "next-mdx-remote": "^5.0.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "recoil": "^0.7.7"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -23,6 +26,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "sass": "^1.77.8",
-    "typescript": "^5"
+    "typescript": "^5",
+    "typescript-plugin-css-modules": "^5.1.0"
   }
 }
