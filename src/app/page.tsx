@@ -5,8 +5,8 @@ import { remark } from "remark";
 import html from "remark-html";
 
 const Home: NextPage = () => {
-  const [markdown, setMarkdown] = useState("");
-  const [htmlContent, setHtmlContent] = useState("");
+  const [markdown, setMarkdown] = useState<string>("");
+  const [htmlContent, setHtmlContent] = useState<string>("");
 
   const handleInputChange = async (e: any) => {
     const inputText = e.target.value;
@@ -19,24 +19,7 @@ const Home: NextPage = () => {
 
   return (
     <main>
-      <div style={{ display: "flex", gap: "20px" }}>
-        <textarea
-          style={{ width: "50%", height: "400px" }}
-          value={markdown}
-          onChange={handleInputChange}
-          placeholder="Enter Markdown here..."
-        />
-        <div
-          style={{
-            width: "50%",
-            height: "400px",
-            border: "1px solid #ddd",
-            padding: "10px",
-            overflowY: "auto",
-          }}
-          dangerouslySetInnerHTML={{ __html: htmlContent }}
-        />
-      </div>
+      <p>home</p>
     </main>
   );
 };
