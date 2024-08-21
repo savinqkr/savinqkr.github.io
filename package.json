@@ -12,16 +12,23 @@
     "deploy": "next build && next export"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "14.2.5",
+    "next-mdx-remote": "^5.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "recoil": "^0.7.7",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "eslint-config-next": "14.2.5",
+    "sass": "^1.77.8",
+    "typescript": "^5",
+    "typescript-plugin-css-modules": "^5.1.0"
   }
 }
