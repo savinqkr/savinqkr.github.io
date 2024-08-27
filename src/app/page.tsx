@@ -1,4 +1,5 @@
 "use client";
+import { Preparing } from "@/common/components";
 import { NextPage } from "next";
 import { useState } from "react";
 import { remark } from "remark";
@@ -17,11 +18,7 @@ const Home: NextPage = () => {
     setHtmlContent(processedHtml.toString());
   };
 
-  return (
-    <main>
-      <p>home</p>
-    </main>
-  );
+  return <Preparing />;
 };
 
 export default Home;
