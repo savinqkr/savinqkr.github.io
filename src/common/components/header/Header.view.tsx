@@ -13,23 +13,23 @@ const VHeader: React.FC<IHeader.IVProps> = (props) => {
         </div>
         <div className={styles.right}>
           <Link className={styles.menu} href={PATH.DEVLOG.MAIN}>
-            <FiLink size={14} />
+            {/* <FiLink size={14} /> */}
             <span>Devlog</span>
           </Link>
           <Link className={styles.menu} href={PATH.PROJECT.MAIN}>
-            <FiLink size={14} />
+            {/* <FiLink size={14} /> */}
             <span>Projects</span>
           </Link>
           <Link className={styles.menu} href={PATH.ABOUT.MAIN}>
-            <FiLink size={14} />
+            {/* <FiLink size={14} /> */}
             <span>About</span>
           </Link>
           <Link className={styles.menu} href={PATH.GITHUB}>
-            <FiLink size={14} />
+            {/* <FiLink size={14} /> */}
             <span>Github</span>
           </Link>
           <Link className={styles.menu} href={PATH.NOTION}>
-            <FiLink size={14} />
+            {/* <FiLink size={14} /> */}
             <span>Notion</span>
           </Link>
         </div>
