@@ -6,7 +6,6 @@ const __dirname = path.dirname(__filename);
 
 /** @type {import('next').NextConfig} */
 
-console.log(pp);
 const nextConfig = {
   ...(process.env.NODE_ENV === "production" && {
     output: "export",
