@@ -6,13 +6,13 @@ const VPreparing: React.FC<IPreparing.IVProps> = (props) => {
   return (
     <div className={styles.preparing}>
       <Image
-        src={"/images/hourglass.png"}
-        alt="Preparing..."
+        src={"/hourglass.png"}
+        alt='Preparing...'
         width={150}
         height={150}
         // layout="fill"
         priority
-        loading="eager"
+        loading='eager'
       />
       <p>Preparing...</p>
     </div>
