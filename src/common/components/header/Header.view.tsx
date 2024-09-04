@@ -2,7 +2,7 @@ import PATH from "@/constants/path";
 import { IHeader } from "./Header.interface";
 import styles from "./Header.module.scss";
 import Link from "next/link";
-import { FiLink } from "react-icons/fi";
+import { IoMenu } from "react-icons/io5";
 
 const VHeader: React.FC<IHeader.IVProps> = (props) => {
   return (
@@ -32,6 +32,9 @@ const VHeader: React.FC<IHeader.IVProps> = (props) => {
             {/* <FiLink size={14} /> */}
             <span>Notion</span>
           </Link>
+        </div>
+        <div className={styles.hamburger}>
+          <IoMenu size={20} />
         </div>
       </div>
     </header>

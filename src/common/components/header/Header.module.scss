@@ -1,3 +1,5 @@
+@import "/src/app/mixin";
+
 .header {
   width: 100%;
   display: flex;
@@ -41,5 +43,32 @@
 
   &:hover {
     color: #6f57a9;
+  }
+}
+.hamburger {
+  display: none;
+}
+
+@include mobile {
+  .right {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
+@include tablet {
+  .right {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
+@include desktop {
+  .hamburger {
+    display: none;
   }
 }
